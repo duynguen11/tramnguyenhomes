@@ -10,7 +10,6 @@ import {
   FaPhoneAlt,
 } from "react-icons/fa";
 
-import Avatar from "../../assets/images/Avatar.jpg";
 import Info from "../../assets/images/Info.png";
 
 import FloatingContact from "../FloatingContact/FloatingContact";
