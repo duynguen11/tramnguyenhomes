@@ -17,7 +17,7 @@ import FloatingContact from "../FloatingContact/FloatingContact";
 
 export const Footer = () => {
   return (
-    <div className="bg-gradient-to-r from-gray-700 to-gray-600 text-white p-6">
+    <div className="bg-gradient-to-r from-gray-700 to-gray-600 text-white p-5">
       <FloatingContact />
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl text-center font-bold mb-6">
@@ -47,9 +47,9 @@ export const Footer = () => {
               <span>Email: ngoctramnguyen280991@gmail.com</span>
             </p>
             {/* Website */}
-            <p className="flex items-center mb-6">
+            <p className="flex items-center mb-8">
               <FaGlobe className="mr-3 text-lg text-gray-200" />
-              <span>Website chính thức:</span>
+              <span>Website:</span>
               <a
                 href="http://tramnguyenhomes.com"
                 className="text-white hover:text-blue-600 ml-2"
@@ -97,7 +97,8 @@ export const Footer = () => {
             {/* Nút "Ưu đãi mới nhất" */}
             <a
               href="https://www.facebook.com/tramnguyendkravega"
-              className="mt-6 px-6 py-3 bg-red-500 text-white font-semibold rounded-full text-lg hover:bg-red-700 transition-all duration-300"
+              target="_blank"
+              className="mt-6 px-6 py-3 bg-red-500 text-white font-semibold rounded text-base hover:bg-red-700 transition-all duration-300"
             >
               Nhận ưu đãi mới nhất
             </a>

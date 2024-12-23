@@ -75,8 +75,8 @@ export const Header = () => {
         className="lg:hidden"
       >
         <div className="fixed inset-0 z-10" />
-        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-          <div className="flex items-center justify-between">
+        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-gray-100 py-7 px-4 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <div className="flex items-center justify-between pb-6">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
             </a>
@@ -87,8 +87,8 @@ export const Header = () => {
             >
               <XMarkIcon aria-hidden="true" className="size-6" />
             </button>
-          </div>
-          <div className="mt-6 flow-root">
+          </div><hr />
+          <div className="mt-5 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <a
@@ -128,16 +128,15 @@ export const Header = () => {
                   LIÊN HỆ
                 </a>
               </div>
-              <div className="flex items-center justify-between rounded bg-red-500 hover:bg-red-600 p-2">
+            </div>
+              <a href="tel:0949651568" className="flex items-center justify-between rounded bg-red-500 hover:bg-red-600 p-2 mt-5">
                 <FaChevronRight className="text-white" />
-                <a
-                  href="#"
-                  className="block rounded text-base/7 font-semibold text-white"
+                <p
+                  className="pr-4 block rounded text-base/7 font-semibold text-white"
                 >
                   GỌI NGAY 0949651568
-                </a>
-              </div>
-            </div>
+                </p>
+              </a>
           </div>
         </DialogPanel>
       </Dialog>
