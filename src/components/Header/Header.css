@@ -1,0 +1,15 @@
+@keyframes blink {
+  0% {
+    border-color: #48fb86; /* Màu border ban đầu (xanh dương) */
+  }
+  50% {
+    border-color: transparent; /* Màu border khi nhấp nháy (ẩn) */
+  }
+  100% {
+    border-color: #2bff39; /* Quay lại màu ban đầu */
+  }
+}
+
+.animate-blink {
+  animation: blink 1.2s infinite; /* 1s là thời gian cho mỗi chu kỳ nhấp nháy */
+}

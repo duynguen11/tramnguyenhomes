@@ -5,6 +5,8 @@ import { FaPhone, FaChevronRight } from "react-icons/fa";
 
 import Avartar from "../../assets/images/Avatar2.jpg";
 
+import "./Header.css";
+
 export const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -15,10 +17,15 @@ export const Header = () => {
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 fixed top-0 left-0 right-0 z-10 bg-white"
       >
         <div className="flex items-center lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <img alt="" src={Avartar} className="h-12 w-12 rounded-full shadow-lg" />
+          <a
+            href="tel:0949651568"
+            className="-m-1.5 p-1 rounded-full shadow-lg border-2 border-blue-500 animate-blink"
+          >
+            <img alt="" src={Avartar} className="h-12 w-12 rounded-full" />
           </a>
-          <p className="font-semibold text-blue-900 ms-2">TRÂM NGUYỄN HOMES</p>
+          <p className="text-sm font-bold text-blue-900 ms-3">
+            TRÂM NGUYỄN HOMES
+          </p>
         </div>
         <div className="flex lg:hidden">
           <button

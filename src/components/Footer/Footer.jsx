@@ -11,12 +11,13 @@ import {
 } from "react-icons/fa";
 
 import Avatar from "../../assets/images/Avatar.jpg";
+import Info from "../../assets/images/Info.png";
 
 import FloatingContact from "../FloatingContact/FloatingContact";
 
 export const Footer = () => {
   return (
-    <div className="bg-gradient-to-r from-gray-700 to-gray-600 text-white p-8">
+    <div className="bg-gradient-to-r from-gray-700 to-gray-600 text-white p-6">
       <FloatingContact />
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl text-center font-bold mb-6">
@@ -86,14 +87,16 @@ export const Footer = () => {
             </div>
           </div>
           <div className="flex justify-center items-center flex-col">
-            <img
-              src={Avatar}
-              alt="Service Image"
-              className="w-64 h-64 rounded-full shadow transform hover:scale-105 transition-all duration-300"
-            />
+            <a href="https://m.me/tramnguyendkravega" target="_blank">
+              <img
+                src={Info}
+                alt="Service Image"
+                className="rounded shadow cursor-pointer"
+              />
+            </a>
             {/* Nút "Ưu đãi mới nhất" */}
             <a
-              href="#"
+              href="https://www.facebook.com/tramnguyendkravega"
               className="mt-6 px-6 py-3 bg-red-500 text-white font-semibold rounded-full text-lg hover:bg-red-700 transition-all duration-300"
             >
               Nhận ưu đãi mới nhất
