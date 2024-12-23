@@ -13,13 +13,13 @@ export const Service = () => {
         <h2 className="text-2xl text-center font-bold text-blue-900 mb-8">
           DỊCH VỤ CỦA TRÂM NGUYỄN HOMES BAO GỒM
         </h2>
-        <div className="relative border-l-4 border-blue-900">
+        <div className="relative border-l-2 border-blue-900">
           {/* Tư vấn mua bán BĐS Cao cấp */}
-          <div className="mb-8 pl-8 relative">
+          <div className="mb-5 pl-8 relative">
             <div className="absolute -left-4 top-0 bg-blue-400 text-white rounded-full w-8 h-8 flex items-center justify-center">
               <FaHome className="w-4 h-4" />
             </div>
-            <h3 className="text-xl font-bold text-blue-900 mb-2">
+            <h3 className="text-xl font-bold text-blue-900 mb-1">
               Tư vấn mua bán BĐS Cao cấp
             </h3>
             <p className="text-gray-700 text-base leading-relaxed">
@@ -29,11 +29,11 @@ export const Service = () => {
             </p>
           </div>
           {/* Đánh giá và định giá bất động sản */}
-          <div className="mb-8 pl-8 relative">
+          <div className="mb-5 pl-8 relative">
             <div className="absolute -left-4 top-0 bg-green-400 text-white rounded-full w-8 h-8 flex items-center justify-center">
               <FaBuilding className="w-4 h-4" />
             </div>
-            <h3 className="text-xl font-bold text-blue-900 mb-2">
+            <h3 className="text-xl font-bold text-blue-900 mb-1">
               Đánh giá và định giá bất động sản
             </h3>
             <p className="text-gray-700 text-base leading-relaxed">
@@ -43,11 +43,11 @@ export const Service = () => {
             </p>
           </div>
           {/* Hỗ trợ tài chính và vay vốn */}
-          <div className="mb-8 pl-8 relative">
+          <div className="mb-5 pl-8 relative">
             <div className="absolute -left-4 top-0 bg-yellow-300 text-white rounded-full w-8 h-8 flex items-center justify-center">
               <FaRegCreditCard className="w-4 h-4" />
             </div>
-            <h3 className="text-xl font-bold text-blue-900 mb-2">
+            <h3 className="text-xl font-bold text-blue-900 mb-1">
               Hỗ trợ tài chính và vay vốn bất động sản
             </h3>
             <p className="text-gray-700 text-base leading-relaxed">
@@ -57,11 +57,11 @@ export const Service = () => {
             </p>
           </div>
           {/* Quản lý bất động sản */}
-          <div className="mb-8 pl-8 relative">
+          <div className="mb-5 pl-8 relative">
             <div className="absolute -left-4 top-0 bg-red-400 text-white rounded-full w-8 h-8 flex items-center justify-center">
               <FaKey className="w-4 h-4" />
             </div>
-            <h3 className="text-xl font-bold text-blue-900 mb-2">
+            <h3 className="text-xl font-bold text-blue-900 mb-1">
               Quản lý bất động sản và dịch vụ sau bán hàng
             </h3>
             <p className="text-gray-700 text-base leading-relaxed">
@@ -70,11 +70,11 @@ export const Service = () => {
             </p>
           </div>
           {/* Tìm kiếm và đề xuất dự án */}
-          <div className="mb-8 pl-8 relative">
+          <div className="mb-5 pl-8 relative">
             <div className="absolute -left-4 top-0 bg-purple-400 text-white rounded-full w-8 h-8 flex items-center justify-center">
               <FaDollarSign className="w-4 h-4" />
             </div>
-            <h3 className="text-xl font-bold text-blue-900 mb-2">
+            <h3 className="text-xl font-bold text-blue-900 mb-1">
               Tìm kiếm và đề xuất các dự án đầu tư tiềm năng
             </h3>
             <p className="text-gray-700 text-base leading-relaxed">

@@ -1,7 +1,7 @@
 export const Achievements = () => {
   return (
     <div className="p-6 bg-gray-50">
-      <div className="max-w-7xl mx-auto py-8">
+      <div className="max-w-7xl mx-auto py-6">
         <h2 className="text-2xl text-center font-bold text-blue-900 mb-10">
           BẤT ĐỘNG SẢN MANG LẠI GIÁ TRỊ GÌ?
         </h2>

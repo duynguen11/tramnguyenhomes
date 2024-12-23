@@ -54,13 +54,13 @@ export const Intro = () => {
   return (
     <div className="p-4">
       <div className="max-w-7xl mx-auto py-6">
-        <h2 className="text-2xl text-center font-bold text-blue-900 mb-6">
+        <h2 className="text-2xl text-center font-bold text-blue-900 mb-7">
           NƠI TẠO DỰNG ƯỚC MƠ VỀ BẤT ĐỘNG SẢN CAO CẤP
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 text-sm">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 text-sm">
           <div className="max-w-4xl mx-auto">
             <p className="text-lg font-bold text-blue-900 mb-4">Xin chào!</p>
-            <p className="text-justify text-base leading-relaxed text-gray-700 mb-6">
+            <p className="text-justify text-base leading-relaxed text-gray-700 mb-3">
               Tôi là{" "}
               <span className="font-bold text-blue-900">Trâm Nguyễn</span>, một
               <span className="font-bold text-blue-900">
@@ -71,7 +71,7 @@ export const Intro = () => {
               nghiệm tuyệt vời về thế giới bất động sản cao cấp.
             </p>
 
-            <p className="text-justify text-base leading-relaxed text-gray-700 mb-6">
+            <p className="text-justify text-base leading-relaxed text-gray-700 mb-3">
               Tôi thành lập trang web này với sứ mệnh đưa Bạn đến gần hơn với
               những cơ hội độc đáo và tiềm năng đầy hứa hẹn trong lĩnh vực bất
               động sản cao cấp tại khu vực{" "}
@@ -82,7 +82,7 @@ export const Intro = () => {
               nghiên cứu bất động sản.
             </p>
 
-            <p className="text-justify text-base leading-relaxed text-gray-700 mb-6">
+            <p className="text-justify text-base leading-relaxed text-gray-700 mb-3">
               Tại{" "}
               <span className="font-bold text-blue-900">TramNguyenHomes</span>,
               tôi hiểu rằng mua bán hoặc đầu tư vào bất động sản là một quyết
@@ -93,7 +93,7 @@ export const Intro = () => {
               đáng tin cậy, rõ ràng để Bạn có thể đưa ra quyết định đúng đắn.
             </p>
 
-            <p className="text-justify text-base leading-relaxed text-gray-700 mb-6">
+            <p className="text-justify text-base leading-relaxed text-gray-700 mb-3">
               Do đó, Tôi luôn là cầu nối uy tín giữa Chủ Đầu tư và Khách Hàng,
               vì thế Tôi luôn đặt lợi ích của Khách Hàng lên hàng đầu và tư vấn
               dựa trên nhu cầu cụ thể của từng cá nhân và dự án.
@@ -176,7 +176,7 @@ export const Intro = () => {
                 </div>
               </div>
             )}
-            <h2 className="mt-3 text-center">
+            <h2 className="mt-4 text-center">
               Cảm ơn Quý Anh Chị Khách Hàng đã tin tưởng và lựa chọn Trâm Nguyễn
             </h2>
           </div>

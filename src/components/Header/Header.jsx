@@ -14,9 +14,9 @@ export const Header = () => {
     <header className="bg-white">
       <nav
         aria-label="Global"
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 fixed top-0 left-0 right-0 z-10 bg-white"
+        className="mx-auto flex max-w-7xl items-center justify-between px-4 py-5 lg:px-8 fixed top-0 left-0 right-0 z-10 bg-white"
       >
-        <div className="flex items-center lg:flex-1">
+        <div className="flex items-center lg:flex-1 pl-1">
           <a
             href="tel:0949651568"
             className="-m-1.5 p-1 rounded-full shadow-lg border-2 border-blue-500 animate-blink"

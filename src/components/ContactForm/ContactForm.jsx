@@ -4,7 +4,7 @@ import { faGift } from "@fortawesome/free-solid-svg-icons";
 export const ContactForm = () => {
   return (
     <div className="p-4">
-      <div className="bg-gradient-to-r from-blue-900 to-blue-700 p-3 rounded-lg shadow-lg max-w mx-auto mt-6">
+      <div className="bg-gradient-to-r from-blue-900 to-blue-700 p-3 rounded-lg shadow-lg max-w mx-auto mt-3">
         <h2 className="text-white text-2xl font-bold text-center mb-4 flex justify-center">
           <FontAwesomeIcon icon={faGift} className="h-7 w-7 mr-2" />
           NHẬN THÔNG TIN & ƯU ĐÃI MỚI NHẤT
@@ -16,7 +16,7 @@ export const ContactForm = () => {
           Hoặc có thể liên hệ qua hotline
           <span className="font-bold"> 0949651568</span>
         </p>
-        <form className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <form className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 px-4">
           <div className="mb-2">
             <label className="block text-white mb-2" htmlFor="name">
               Họ và Tên
