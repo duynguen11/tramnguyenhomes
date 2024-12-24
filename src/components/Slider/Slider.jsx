@@ -1,7 +1,34 @@
+import { useRef } from "react";
+import emailjs from "emailjs-com";
+
 import Bg3 from "../../assets/images/Slider/Bg3.jpg";
 import Bg6 from "../../assets/images/Slider/Bg6.jpg";
 
 export const Slider = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_ia2yp2p", // Thay bằng Service ID của bạn
+        "template_x6nv5tc", // Thay bằng Template ID của bạn
+        form.current,
+        "QMA1eCQFk32sEpwul" // Thay bằng User ID của bạn
+      )
+      .then(
+        (result) => {
+          console.log("Email sent successfully:", result.text);
+          alert("Gửi thông tin thành công!");
+        },
+        (error) => {
+          console.log("Error sending email:", error.text);
+          alert("Có lỗi xảy ra. Vui lòng thử lại!");
+        }
+      );
+  };
+
   return (
     <div className="p-4">
       <div className="max-w-7xl mx-auto pt-24">
@@ -20,27 +47,35 @@ export const Slider = () => {
                 0949651568
               </a>
             </p>
-            <form className="space-y-4">
+            <form ref={form} onSubmit={sendEmail} className="space-y-4">
               <div className="space-y-4">
                 <input
                   type="text"
+                  name="from_name" // Phù hợp với {{from_name}} trong template
                   placeholder="Họ và Tên"
                   className="border border-gray-300 rounded p-2 w-full focus:outline-none focus:ring-2 focus:ring-gray-400"
+                  required
                 />
                 <input
                   type="email"
+                  name="reply_to" // Phù hợp với {{reply_to}} trong template
                   placeholder="Email"
                   className="border border-gray-300 rounded p-2 w-full focus:outline-none focus:ring-2 focus:ring-gray-400"
+                  required
                 />
                 <input
                   type="tel"
-                  placeholder="Điện thoại"
+                  name="phone" // Phù hợp với {{phone}} trong template
+                  placeholder="Số điện thoại"
                   className="border border-gray-300 rounded p-2 w-full focus:outline-none focus:ring-2 focus:ring-gray-400"
+                  required
                 />
                 <textarea
+                  name="message" // Phù hợp với {{message}} trong template
                   placeholder="Nội dung"
                   rows="4"
                   className="border border-gray-300 rounded p-2 w-full focus:outline-none focus:ring-2 focus:ring-gray-400"
+                  required
                 ></textarea>
               </div>
               <button
