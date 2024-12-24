@@ -14,7 +14,7 @@ export const ContactForm = () => {
           thông tin bên dưới chúng tôi sẽ liên hệ tư vấn ngay.
           <br />
           Hoặc có thể liên hệ qua hotline
-          <span className="font-bold"> 0949651568</span>
+          <a href="tel:0949651568" className="font-bold"> 0949651568</a>
         </p>
         <form className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 px-4">
           <div className="mb-2">

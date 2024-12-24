@@ -16,7 +16,9 @@ export const Slider = () => {
               Quý anh chị nếu có nhu cầu tìm hiểu thêm thông tin, vui lòng để
               lại thông tin bên dưới chúng tôi sẽ liên hệ tư vấn ngay. Hoặc có
               thể liên hệ qua hotline{" "}
-              <span className="font-bold text-blue-900">0949651568</span>
+              <a href="tel:0949651568" className="font-bold text-blue-900">
+                0949651568
+              </a>
             </p>
             <form className="space-y-4">
               <div className="space-y-4">
