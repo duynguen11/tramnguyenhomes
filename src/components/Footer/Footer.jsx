@@ -97,9 +97,9 @@ export const Footer = () => {
             <a
               href="https://www.facebook.com/tramnguyendkravega"
               target="_blank"
-              className="mt-6 px-6 py-3 bg-red-500 text-white font-semibold rounded text-base hover:bg-red-700 transition-all duration-300"
+              className="mt-6 px-8 py-3 bg-red-500 text-white font-semibold rounded text-base hover:bg-red-700 transition-all duration-300"
             >
-              Nhận ưu đãi mới nhất
+              NHẬN ƯU ĐÃI MỚI NHẤT
             </a>
           </div>
         </div>

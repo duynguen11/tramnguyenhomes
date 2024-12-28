@@ -38,10 +38,10 @@ export const Header = () => {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="/" className="text-sm/6 font-semibold text-gray-900">
             TRANG CHỦ
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#intro" className="text-sm/6 font-semibold text-gray-900">
             GIỚI THIỆU
           </a>
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
@@ -50,10 +50,10 @@ export const Header = () => {
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
             VIDEO
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#values" className="text-sm/6 font-semibold text-gray-900">
             TIN TỨC
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#footer" className="text-sm/6 font-semibold text-gray-900">
             LIÊN HỆ
           </a>
         </PopoverGroup>
@@ -87,7 +87,8 @@ export const Header = () => {
             >
               <XMarkIcon aria-hidden="true" className="size-6" />
             </button>
-          </div><hr />
+          </div>
+          <hr />
           <div className="mt-5 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
@@ -129,14 +130,15 @@ export const Header = () => {
                 </a>
               </div>
             </div>
-              <a href="tel:0949651568" className="flex items-center justify-between rounded bg-red-500 hover:bg-red-600 p-2 mt-5">
-                <FaChevronRight className="text-white" />
-                <p
-                  className="pr-4 block rounded text-base/7 font-semibold text-white"
-                >
-                  GỌI NGAY 0949651568
-                </p>
-              </a>
+            <a
+              href="tel:0949651568"
+              className="flex items-center justify-between rounded bg-red-500 hover:bg-red-600 p-2 mt-5"
+            >
+              <FaChevronRight className="text-white" />
+              <p className="pr-4 block rounded text-base/7 font-semibold text-white">
+                GỌI NGAY 0949651568
+              </p>
+            </a>
           </div>
         </DialogPanel>
       </Dialog>

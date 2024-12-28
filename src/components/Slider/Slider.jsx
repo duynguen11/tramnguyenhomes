@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+import Swal from "sweetalert2";
 
 import Bg3 from "../../assets/images/Slider/Bg3.jpg";
 import Bg6 from "../../assets/images/Slider/Bg6.jpg";
@@ -20,11 +21,29 @@ export const Slider = () => {
       .then(
         (result) => {
           console.log("Email sent successfully:", result.text);
-          alert("Gửi thông tin thành công!");
+          Swal.fire({
+            icon: "success",
+            title: "Thành công!",
+            text: "Gửi thông tin thành công!",
+            confirmButtonText: "Xác nhận",
+            customClass: {
+              popup: "rounded shadow-lg",
+              confirmButton: "bg-blue-700 text-white px-6 py-2 rounded",
+            },
+          });
         },
         (error) => {
           console.log("Error sending email:", error.text);
-          alert("Có lỗi xảy ra. Vui lòng thử lại!");
+          Swal.fire({
+            icon: "error",
+            title: "Lỗi!",
+            text: "Có lỗi xảy ra. Vui lòng thử lại!",
+            confirmButtonText: "Thử lại",
+            customClass: {
+              popup: "rounded shadow-lg",
+              confirmButton: "bg-red-500 text-white px-6 py-2 rounded",
+            },
+          });
         }
       );
   };
@@ -54,14 +73,12 @@ export const Slider = () => {
                   name="from_name" // Phù hợp với {{from_name}} trong template
                   placeholder="Họ và Tên"
                   className="border border-gray-300 rounded p-2 w-full focus:outline-none focus:ring-2 focus:ring-gray-400"
-                  required
                 />
                 <input
                   type="email"
                   name="reply_to" // Phù hợp với {{reply_to}} trong template
                   placeholder="Email"
                   className="border border-gray-300 rounded p-2 w-full focus:outline-none focus:ring-2 focus:ring-gray-400"
-                  required
                 />
                 <input
                   type="tel"
