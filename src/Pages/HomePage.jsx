@@ -2,6 +2,7 @@ import { Header } from "../components/Header/Header";
 import { Slider } from "../components/Slider/Slider";
 import { Intro } from "../components/Intro/Intro";
 import { Service } from "../components/Service/Service";
+import { HotRealestate } from "../components/HotRealestate/HotRealestate";
 import { Values } from "../components/Values/Values";
 import { Achievements } from "../components/Achievements/Achievements";
 import { ContactForm } from "../components/ContactForm/ContactForm";
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Slider />
       <Intro />
       <Service />
+      <HotRealestate />
       <ContactForm />
       <Values />
       <Achievements />
