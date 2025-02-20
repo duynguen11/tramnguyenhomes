@@ -36,7 +36,7 @@ const cardData = [
     description: "Bàn giao 09/2026",
     author: "Lê Phong và Coteccons",
     role: "Co-Founder / CTO",
-    detailUrl: "https://www.duanemerald68.com/",
+    detailUrl: "/",
   },
   {
     imageUrl: Soli,
@@ -120,7 +120,6 @@ export const HotRealestate = () => {
                   {/* Nút xem chi tiết */}
                   <Link
                     to={card.detailUrl}
-                    target="_blank"
                     rel="noopener noreferrer"
                     className="ml-auto inline-block rounded bg-red-500 p-2 text-sm font-semibold text-white hover:bg-red-700 transition-colors"
                   >
